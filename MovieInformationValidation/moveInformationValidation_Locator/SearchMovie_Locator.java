@@ -16,8 +16,13 @@ public WebDriver driver = null;
 	
 	}
 	
+<<<<<<< HEAD
+
+//Enter value into searchbox field
+=======
 //FOR IMDB Website Locator
 	//Enter value into searchbox field
+>>>>>>> 40cc3760610cfb7860d9f3f742453291c911dc31
 	@FindBy(id ="suggestion-search")
        private WebElement searchBox;
 	
@@ -25,7 +30,11 @@ public WebDriver driver = null;
 		 return searchBox;
 		
 	}
+<<<<<<< HEAD
+//Click on link Pushpa: The Rise - Part 1
+=======
 	//Click on link Pushpa: The Rise - Part 1
+>>>>>>> 40cc3760610cfb7860d9f3f742453291c911dc31
 	@FindBy(linkText ="Pushpa: The Rise - Part 1")
       private WebElement selectTitle;
 	
@@ -33,16 +42,26 @@ public WebDriver driver = null;
 		return selectTitle;
 		
 	}
+<<<<<<< HEAD
+//ScrollDown Upto Also known as text
+	@FindBy(xpath ="//a[contains(text(),'Also known as')]")
+=======
 	//ScrollDown Upto Details
 	@FindBy(xpath ="//h3[contains(text(),'Details')]")
+>>>>>>> 40cc3760610cfb7860d9f3f742453291c911dc31
       private WebElement scrollDown;
 	
 	  public WebElement getScrollDown() {
 		return scrollDown;
 		
 	}
+<<<<<<< HEAD
+//To select release date of india we need to first click on existing date & after that select country india
+    @FindBy(linkText ="January 7, 2022 (United States)")
+=======
 	//To select release date of india we need to first click on existing date & after that select country india
 	@FindBy(linkText ="January 7, 2022 (United States)")
+>>>>>>> 40cc3760610cfb7860d9f3f742453291c911dc31
 	  private WebElement releaseDate ;
 		
 	  public WebElement getReleaseDate() {
@@ -50,8 +69,13 @@ public WebDriver driver = null;
 			
 		}
 		
+<<<<<<< HEAD
+//Extract Country name element value
+    @FindBy(linkText ="India")
+=======
   //Extract Country name element value
    @FindBy(linkText ="India")
+>>>>>>> 40cc3760610cfb7860d9f3f742453291c911dc31
 	  private WebElement countryName ;
 				
       public WebElement getCountryName() {
@@ -59,15 +83,24 @@ public WebDriver driver = null;
 					
 		}
 				
+<<<<<<< HEAD
+//Extract Release Date in India
+	@FindBy(xpath="(//td[@align='right'][normalize-space()='17 December 2021'])[5]")
+	  private WebElement releaseDateIndia;
+	  
+=======
  //Extract Release Date in India
 	@FindBy(xpath ="//body[1]/div[2]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/table[1]/tbody[1]/tr[6]/td[2]")
 	  private WebElement releaseDateIndia;
+>>>>>>> 40cc3760610cfb7860d9f3f742453291c911dc31
 	  public WebElement getReleaseDateIndia() {
 		return releaseDateIndia;
 					
 		}
 				
 				
+<<<<<<< HEAD
+=======
 //For Wiki website Locator
   //Enter value into searchbox field
 	@FindBy(id ="searchInput")
@@ -98,6 +131,7 @@ public WebDriver driver = null;
 
 						
 			
+>>>>>>> 40cc3760610cfb7860d9f3f742453291c911dc31
 				
           
 				
